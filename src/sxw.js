@@ -2,7 +2,7 @@
 * SXW.js
 * A simple javascript to print self XSS warning
 * GitHub    : https://github.com/sxw-js/sxw-js
-* Version   : v0.0.1 (2019-May-10)
+* Version   : v1.0.0 (2019-May-10)
 * License   : MIT license (http://www.opensource.org/licenses/mit-license.php)
 */
 

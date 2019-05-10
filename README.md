@@ -1,6 +1,10 @@
 # SXW.js
 SXW.js is a javascript library that is used to display console warnings aginst Self XSS attacks.
 
+![GitHub](https://img.shields.io/github/license/sxw-js/sxw-js.svg)
+![GitHub issues](https://img.shields.io/github/issues/sxw-js/sxw-js.svg)
+![GitHub release](https://img.shields.io/github/release/sxw-js/sxw-js.svg)
+
 ### Basic Usage
 
  1. Include the sxw.js file in your website.

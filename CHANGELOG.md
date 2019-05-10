@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
  - Added XSS warning to window
+ - New configurations and options
 
 ### Changed
  - Added format to console texts

@@ -7,22 +7,35 @@
 * License   : MIT license (http://www.opensource.org/licenses/mit-license.php)
 */
 
-window.sxwjs = {
-    config: {
-        stopColor: "red",
-        warningText: "\n\nThis section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
+;(function (global) {
+
+    'use strict'
+
+    var sxwjs = {
+        config: {
+            stopColor: "red",
+            warningText: "\n\nThis section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
+        }
+    };
+
+    function printStop() {
+        console.log("%c*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***", "color:" + sxwjs.config.stopColor + "; font-weight:900;");
     }
-};
 
-window.sxwjs.printStop = function () {
-    console.log("%c*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***", "color:" + window.sxwjs.config.stopColor + "; font-weight:900;");
-}
+    function printWarningText() {
+        console.log("%cCaution: DO NOT PROCEED.", "font-weight:bold; font-size:15px;", sxwjs.config.warningText);
+    }
 
-window.sxwjs.printWarningText = function () {
-    console.log("%cCaution: DO NOT PROCEED.", "font-weight:bold; font-size:15px;", window.sxwjs.config.warningText);
-}
+    function printWarning() {
+        printStop();
+        printWarningText();
+    }
+    
+    sxwjs.printStop = printStop;
+    sxwjs.printWarningText = printWarningText;    
+    sxwjs.printWarning = printWarning;
 
-window.sxwjs.printWarning = function () {
-    window.sxwjs.printStop();
-    window.sxwjs.printWarningText();
-}
+    global.sxwjs = sxwjs;
+    
+})(window || global || {});
+

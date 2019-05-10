@@ -1,3 +1,11 @@
+/*
+* SXW JS
+* A simple javascript to print self XSS warning
+* GitHub    : https://github.com/sxw-js/sxw-js
+* Version   : v0.0.1 (2019-May-10)
+* License   : MIT license (http://www.opensource.org/licenses/mit-license.php)
+*/
+
 window.sxwjs = {};
 window.sxwjs.printXssWarning = function printXssWarning() {
     console.log("%c*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***", "color: red; font-weight:bold;");

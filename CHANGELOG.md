@@ -13,6 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Added format to console texts
  - Added more information to console texts
 
+### Removed
+ - Auto calling of warning function
+
 ## [0.0.1] - 2019-05-10
 ### Added
  - New Changelog

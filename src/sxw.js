@@ -1,10 +1,10 @@
-/*
-* SXW.js
-* A simple javascript to print self XSS warning
-* GitHub    : https://github.com/sxw-js/sxw-js
-* Website   : https://sxw.js.org/
-* Version   : v1.1.1 (2019-May-14)
-* License   : MIT license (http://www.opensource.org/licenses/mit-license.php)
+/**
+* @name         SXW.js
+* @description  A simple javascript to print self XSS warning
+* @gitHub       https://github.com/sxw-js/sxw-js
+* @website      https://sxw.js.org/
+* @version      v1.1.1 (2019-May-14)
+* @license      MIT license (http://www.opensource.org/licenses/mit-license.php)
 */
 
 ;(function (g) {
@@ -18,17 +18,23 @@
         }
     };
 
-    // This function prints a huge stop sign in the console
+    /**
+     * @description: This function prints a huge stop sign in the console
+     */
     function printStop() {
         console.log("%c*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***", "color:" + sxwjs.config.stopColor + "; font-weight:900;");
     }
 
-    // This function prints a caution notice followed by a detailed warning text
+    /**
+     * @description: This function prints a caution notice followed by a detailed warning text
+     */
     function printWarningText() {
         console.log("%cCaution: DO NOT PROCEED.\n\n", "font-weight:bold; font-size:15px;", sxwjs.config.warningText);
     }
 
-    // This function prints all the warnings including STOP sign, caution notice and warning text
+    /**
+     * @description: This function prints all the warnings including STOP sign, caution notice and warning text
+     */
     function printWarning() {
         printStop();
         printWarningText();

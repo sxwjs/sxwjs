@@ -14,7 +14,7 @@
     var sxwjs = {
         config: {
             stopColor: "red",
-            warningText: "\n\nThis section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
+            warningText: "This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
         }
     };
 
@@ -25,7 +25,7 @@
 
     // This function prints a caution notice followed by a detailed warning text
     function printWarningText() {
-        console.log("%cCaution: DO NOT PROCEED.", "font-weight:bold; font-size:15px;", sxwjs.config.warningText);
+        console.log("%cCaution: DO NOT PROCEED.\n\n", "font-weight:bold; font-size:15px;", sxwjs.config.warningText);
     }
 
     // This function prints all the warnings including STOP sign, caution notice and warning text

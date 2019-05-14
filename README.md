@@ -33,7 +33,7 @@ SXW.js has a config object with the following variables,
 Variable name | Default value | Description
 ------------ | ------------- | ---------
 stopColor | red | the colour of the stop sign
-warningText | \n\nThis section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team. | The content of the detailed error message
+warningText | This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team. | The content of the detailed error message
 
 These variable can be customized to suit your website needs.
 

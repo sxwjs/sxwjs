@@ -7,9 +7,9 @@
 * @license      MIT license (http://www.opensource.org/licenses/mit-license.php)
 */
 
-;(function (g) {
+(function (g) {
 
-    'use strict'
+    "/use strict";
 
     var sxwjs = {
         config: {

@@ -16,5 +16,4 @@ steps:
 
 - script: npm install
 - script: npm i -g eslint
-- script: eslint --init
-- script: cd ./src && eslint sxw.js
+- script: cd ./src && eslint --no-eslintrc sxw.js

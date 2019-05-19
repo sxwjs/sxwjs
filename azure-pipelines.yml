@@ -3,8 +3,17 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+# Ref: https://docs.microsoft.com/en-us/azure/devops/pipelines/build/triggers
 trigger:
-- master
+  batch: true
+  branches:
+    include:
+    - master
+  paths:
+    exclude:
+    - README.md
+    - LICENSE
+    - CHANGELOG.md
 
 pool:
   vmImage: 'ubuntu-latest'

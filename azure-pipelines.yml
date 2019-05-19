@@ -17,7 +17,8 @@ steps:
 - script: npm install
 - script: npm i -g eslint
 - script: |
-  cd ./src && eslint --no-eslintrc sxw.js
-  if [ $? -ne 0 ]; then
-        exit 1
-  fi
+    cd ./src
+    eslint --no-eslintrc sxw.js
+    if [ $? -ne 0 ]; then
+      exit 1
+    fi

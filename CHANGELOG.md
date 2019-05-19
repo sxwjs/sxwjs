@@ -5,7 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+ - Eslint specification
+ - CI/CD via Azure Pipelines
+
 ### Changed
+ - Minor changes to suit eslint specs
  - Converted comments into jsdoc
 
 ## [1.1.1] - 2019-05-14

@@ -20,9 +20,7 @@ steps:
     npm i -g eslint
   displayName: Installing eslint
 - script: |
-    cd ./src
-    ls
-    eslint --no-eslintrc sxw.js
+    eslint ./srcsxw.js
     if [ $? -ne 0 ]; then
       exit 1
     fi

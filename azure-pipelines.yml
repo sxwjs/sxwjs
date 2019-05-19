@@ -13,12 +13,17 @@ steps:
 - task: NodeTool@0 
   inputs:
     versionSpec: '12.x'
+  displayName: Insalling node
 
-- script: npm install
-- script: npm i -g eslint
+- script: |
+    npm install
+    npm i -g eslint
+  displayName: Installing eslint
 - script: |
     cd ./src
+    ls
     eslint --no-eslintrc sxw.js
     if [ $? -ne 0 ]; then
       exit 1
     fi
+  displayName: Eslint execution

@@ -19,21 +19,21 @@
     };
 
     /**
-     * @description: This function prints a huge stop sign in the console
+     * @description This function prints a huge stop sign in the console
      */
     function printStop() {
         console.log("%c*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***", "color:" + sxwjs.config.stopColor + "; font-weight:900;");
     }
 
     /**
-     * @description: This function prints a caution notice followed by a detailed warning text
+     * @description This function prints a caution notice followed by a detailed warning text
      */
     function printWarningText() {
         console.log("%cCaution: DO NOT PROCEED.\n\n", "font-weight:bold; font-size:15px;", sxwjs.config.warningText);
     }
 
     /**
-     * @description: This function prints all the warnings including STOP sign, caution notice and warning text
+     * @description This function prints all the warnings including STOP sign, caution notice and warning text
      */
     function printWarning() {
         printStop();

@@ -1,3 +1,7 @@
+/**
+ * @description Rules for Eslint
+ * @ref https://eslint.org/docs/developer-guide/working-with-rules
+ */
 module.exports = {
     "env": {
         "browser": true,

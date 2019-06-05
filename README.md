@@ -3,17 +3,15 @@
 #### About
 SXW.js is a javascript library that is used to display console warnings aginst Self XSS attacks.
 
-[![Website](https://img.shields.io/badge/website-sxw.js.org%2F-%230375b4.svg?style=flat-square)](https://sxw.js.org/)
+[![Website](https://img.shields.io/badge/website-sxw.js.org%2F-%230375b4.svg?style=flat-square&logo=mozillafirefox)](https://sxw.js.org/)
 [![GitHub License](https://img.shields.io/github/license/sxw-js/sxw-js.svg?style=flat-square&logo=github)](https://github.com/sxw-js/sxw-js/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/sxw-js/sxw-js.svg?style=flat-square&logo=github)](https://github.com/sxw-js/sxw-js/issues)
 [![GitHub release](https://img.shields.io/github/release/sxw-js/sxw-js.svg?style=flat-square&logo=github)](https://github.com/sxw-js/sxw-js/releases)
-
 
 #### Build Status
 [![Build Status](https://img.shields.io/azure-devops/build/sxw-js/sxw-js/1.svg?label=Build%3A%20Azure%20Pipelines&style=flat-square&logo=azuredevops)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
 
 #### Available in
-
 [![npm](https://img.shields.io/npm/v/@sxw-js/sxw.js.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxw-js/sxw.js)
 
 ### Usage

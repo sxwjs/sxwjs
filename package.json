@@ -1,6 +1,6 @@
 {
-  "name": "sxw.js",
-  "version": "1.0.0",
+  "name": "@sxw-js/sxw.js",
+  "version": "1.2.0",
   "description": "A Javascript library to warn your users aginst Self XSS attacks",
   "main": "src/sxw.js",
   "scripts": {
@@ -12,16 +12,21 @@
   },
   "keywords": [
     "sxw-js",
-    "self-xss-warning",
-    "self",
-    "xss",
+    "self-xss",
+    "self xss warning",
     "browser",
-    "security"
+    "security",
+    "xss attacks"
   ],
-  "author": "Kolappan Nathan",
+  "contributors": [
+    {
+      "name": "Kolappan Nathan",
+      "url": "https://kolappannathan.github.io/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sxw-js/sxw-js/issues"
   },
-  "homepage": "https://github.com/sxw-js/sxw-js#readme"
+  "homepage": "https://sxw.js.org/"
 }

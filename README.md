@@ -1,14 +1,23 @@
 # SXW.js
+
+#### About
 SXW.js is a javascript library that is used to display console warnings aginst Self XSS attacks.
 
-[![Build Status](https://dev.azure.com/sxw-js/sxw-js/_apis/build/status/sxw-js.sxw-js?branchName=master)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
-![GitHub License](https://img.shields.io/github/license/sxw-js/sxw-js.svg)
-![GitHub issues](https://img.shields.io/github/issues/sxw-js/sxw-js.svg)
-![GitHub release](https://img.shields.io/github/release/sxw-js/sxw-js.svg)
+[![Website](https://img.shields.io/badge/website-sxw.js.org%2F-%230375b4.svg?style=flat-square&logo=mozilla%20firefox)](https://sxw.js.org/)
+[![GitHub License](https://img.shields.io/github/license/sxw-js/sxw-js.svg?style=flat-square&logo=github)](https://github.com/sxw-js/sxw-js/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/sxw-js/sxw-js.svg?style=flat-square&logo=github)](https://github.com/sxw-js/sxw-js/issues)
+[![GitHub release](https://img.shields.io/github/release/sxw-js/sxw-js.svg?style=flat-square&logo=github)](https://github.com/sxw-js/sxw-js/releases)
 
-Website: https://sxw.js.org/
+#### Build Status
+[![Build Status](https://img.shields.io/azure-devops/build/sxw-js/sxw-js/1.svg?label=Build%3A%20Azure%20Pipelines&style=flat-square&logo=azuredevops)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
 
-### Basic Usage
+#### Available in
+[![npm](https://img.shields.io/npm/v/@sxw-js/sxw.js.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxw-js/sxw.js)
+[![Nuget](https://img.shields.io/nuget/v/sxw.js.svg?style=flat-square&logo=nuget)](https://www.nuget.org/packages/sxw.js/)
+
+## Usage
+
+#### Using js file directly
 
  1. Include the sxw.js file in your website.
  2. The script will register built-in functions into `window.sxwjs` object.
@@ -18,6 +27,19 @@ Website: https://sxw.js.org/
         window.sxwjs.printWarning();
     </script>
     ```
+#### Using npm
+ 1. Install the [npm package](https://www.npmjs.com/package/@sxw-js/sxw.js) using
+    ```bash
+    npm i @sxw-js/sxw.js
+    ```
+ 2. Include the sxw.js file into your webstie.
+ 3. At the end of the html document call the printWarning function in `window.sxwjs` similar to the one mentioned above.
+
+ #### Using nuget
+ 1. Install the [nuget package](https://www.nuget.org/packages/sxw.js/)
+ 2. Include the sxw.js file into your webstie.
+ 3. At the end of the html document call the printWarning function in `window.sxwjs` similar to the one mentioned above.
+
 
 ### Customizations
 
@@ -46,3 +68,9 @@ There are three functions in the library that will be available into the `window
  3. `printWarning` - prints all the three sections
 
 None of these functions are called by default. You can choose to call them as you wish.
+
+### Credits
+ 1. The logo and other images are created using [Adobe Spark](https://spark.adobe.com/).
+ 2. The status icons used are provided and hosted by [Shields.io](https://shields.io/).
+ 3. Our website is hosted using free [GitHub pages](https://pages.github.com/).
+ 4. We thank [js.org](https://js.org/) for providing subdomain for this project.

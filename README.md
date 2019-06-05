@@ -1,14 +1,20 @@
 # SXW.js
 SXW.js is a javascript library that is used to display console warnings aginst Self XSS attacks.
 
-[![Build Status](https://dev.azure.com/sxw-js/sxw-js/_apis/build/status/sxw-js.sxw-js?branchName=master)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
-![GitHub License](https://img.shields.io/github/license/sxw-js/sxw-js.svg)
-![GitHub issues](https://img.shields.io/github/issues/sxw-js/sxw-js.svg)
-![GitHub release](https://img.shields.io/github/release/sxw-js/sxw-js.svg)
+[![Build Status](https://dev.azure.com/sxw-js/sxw-js/_apis/build/status/sxw-js.sxw-js?branchName=master)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master&style=flat-square)
+![GitHub License](https://img.shields.io/github/license/sxw-js/sxw-js.svg?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues/sxw-js/sxw-js.svg?style=flat-square)
+![GitHub release](https://img.shields.io/github/release/sxw-js/sxw-js.svg?style=flat-square)
 
 Website: https://sxw.js.org/
 
-### Basic Usage
+Install using,
+
+![npm](https://img.shields.io/npm/v/@sxw-js/sxw.js.svg?style=flat-square)
+
+### Usage
+
+#### Using js file directly
 
  1. Include the sxw.js file in your website.
  2. The script will register built-in functions into `window.sxwjs` object.
@@ -18,6 +24,14 @@ Website: https://sxw.js.org/
         window.sxwjs.printWarning();
     </script>
     ```
+#### Using npm
+ 1. Install the [npm package](https://www.npmjs.com/package/@sxw-js/sxw.js) using
+    ```bash
+    npm i @sxw-js/sxw.js
+    ```
+ 2. Include the sxw.js file into your webstie.
+ 3. At the end of the html document call the printWarning function in `window.sxwjs` similar to the one mentioned above.
+
 
 ### Customizations
 

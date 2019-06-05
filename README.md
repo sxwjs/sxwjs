@@ -68,3 +68,9 @@ There are three functions in the library that will be available into the `window
  3. `printWarning` - prints all the three sections
 
 None of these functions are called by default. You can choose to call them as you wish.
+
+### Credits
+ 1. The logo and other images are created using [Adobe Spark](https://spark.adobe.com/).
+ 2. The status icons used are provided and hosted by [Shields.io](https://shields.io/).
+ 3. Our website is hosted using free [GitHub pages](https://pages.github.com/).
+ 4. We thank [js.org](https://js.org/) for providing subdomain for this project.

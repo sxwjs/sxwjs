@@ -9,6 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Published to npm.
  - Published to Nuget
  - Added logo to status icons
+ - Added credits
 
 ## Changed
  - Changed status icon styles

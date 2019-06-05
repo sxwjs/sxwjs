@@ -13,6 +13,7 @@ SXW.js is a javascript library that is used to display console warnings aginst S
 
 #### Available in
 [![npm](https://img.shields.io/npm/v/@sxw-js/sxw.js.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxw-js/sxw.js)
+[![Nuget](https://img.shields.io/nuget/v/sxw.js.svg?style=flat-square)](https://www.nuget.org/packages/sxw.js/)
 
 ## Usage
 
@@ -31,6 +32,11 @@ SXW.js is a javascript library that is used to display console warnings aginst S
     ```bash
     npm i @sxw-js/sxw.js
     ```
+ 2. Include the sxw.js file into your webstie.
+ 3. At the end of the html document call the printWarning function in `window.sxwjs` similar to the one mentioned above.
+
+ #### Using nuget
+ 1. Install the [nuget package](https://www.nuget.org/packages/sxw.js/)
  2. Include the sxw.js file into your webstie.
  3. At the end of the html document call the printWarning function in `window.sxwjs` similar to the one mentioned above.
 

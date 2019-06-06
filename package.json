@@ -12,6 +12,7 @@
   },
   "keywords": [
     "sxwjs",
+    "sxw js",
     "self-xss",
     "self xss warning",
     "browser",
@@ -22,6 +23,10 @@
     {
       "name": "Kolappan Nathan",
       "url": "https://kolappannathan.github.io/"
+    },
+    {
+      "name": "Shivaraj Naidu",
+      "url": "https://github.com/shivarajnaidu"
     }
   ],
   "license": "MIT",

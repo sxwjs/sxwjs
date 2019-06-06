@@ -12,7 +12,7 @@ SXW.js is a javascript library that is used to display console warnings aginst S
 [![Build Status](https://img.shields.io/azure-devops/build/sxw-js/sxw-js/1.svg?label=Build%3A%20Azure%20Pipelines&style=flat-square&logo=azuredevops)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
 
 #### Available in
-[![npm](https://img.shields.io/npm/v/@sxw-js/sxw.js.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxw-js/sxw.js)
+[![npm](https://img.shields.io/npm/v/@sxwjs/sxwjs.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxwjs/sxwjs)
 [![Nuget](https://img.shields.io/nuget/v/sxw.js.svg?style=flat-square&logo=nuget)](https://www.nuget.org/packages/sxw.js/)
 
 ## Usage
@@ -28,14 +28,20 @@ SXW.js is a javascript library that is used to display console warnings aginst S
     </script>
     ```
 #### Using npm
- 1. Install the [npm package](https://www.npmjs.com/package/@sxw-js/sxw.js) using
+ 1. Install the [npm package](https://www.npmjs.com/package/@sxwjs/sxwjs) using
     ```bash
-    npm i @sxw-js/sxw.js
+    npm i @sxwjs/sxwjs
     ```
- 2. Include the sxw.js file into your webstie.
- 3. At the end of the html document call the printWarning function in `window.sxwjs` similar to the one mentioned above.
+ 2. Import sxwjs module
+ 3. Call the required function inside sxwjs module
+     ```
+    import sxwjs from '@sxwjs/sxwjs';
+    ...
+    ...
+    sxwjs.printWarning();
+    ```
 
- #### Using nuget
+#### Using nuget
  1. Install the [nuget package](https://www.nuget.org/packages/sxw.js/)
  2. Include the sxw.js file into your webstie.
  3. At the end of the html document call the printWarning function in `window.sxwjs` similar to the one mentioned above.

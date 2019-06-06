@@ -1,15 +1,28 @@
 /**
 * @name         SXW.js
 * @description  A simple javascript to print self XSS warning
-* @gitHub       https://github.com/sxw-js/sxw-js
+* @gitHub       https://github.com/sxwjs/sxwjs
 * @website      https://sxw.js.org/
-* @version      v1.2.0 (2019-May-20)
+* @version      v2.0.0 (2019-May-20)
 * @license      MIT license (http://www.opensource.org/licenses/mit-license.php)
 */
 
-(function (g) {
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        // AMD.
+        // Register as an anonymous module.
+        define([], factory);
+    } else if (typeof module === 'object' && module.exports) {
+        // Node modules
+        // Does not work with strict CommonJS, but only CommonJS-like environments that support module.exports, like Node.
+        module.exports = factory();
+    } else {
+        // Browser globals (root is window)
+        root.sxwjs = factory();
+  }
+}(typeof self !== 'undefined' ? self : this, function () {
 
-    "/use strict";
+    // Return a value to define the module export.
 
     var sxwjs = {
         config: {
@@ -45,11 +58,5 @@
     sxwjs.printWarningText = printWarningText;
     sxwjs.printWarning = printWarning;
 
-    if (g.module && g.module.exports) {
-        g.module.exports = sxwjs;
-    }
-
-    // assinging sxwjs to window or global or the empty object that is passed
-    g.sxwjs = sxwjs;
-})(window || global || {});
-// an empty object is passed in the absense of window or glbal to avoid errors
+    return sxwjs;
+}));

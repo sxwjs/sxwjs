@@ -4,9 +4,9 @@
 SXW.js is a javascript library that is used to display console warnings aginst Self XSS attacks.
 
 [![Website](https://img.shields.io/badge/website-sxw.js.org%2F-%230375b4.svg?style=flat-square&logo=mozilla%20firefox)](https://sxw.js.org/)
-[![GitHub License](https://img.shields.io/github/license/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxw-js/sxw-js/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues-raw/sxwjs/sxwjs.svg?logo=github&style=flat-square)](https://github.com/sxw-js/sxw-js/issues)
-[![GitHub release](https://img.shields.io/github/release/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxw-js/sxw-js/releases)
+[![GitHub License](https://img.shields.io/github/license/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxwjs/sxwjs/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues-raw/sxwjs/sxwjs.svg?logo=github&style=flat-square)](https://github.com/sxwjs/sxwjs/issues)
+[![GitHub release](https://img.shields.io/github/release/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxwjs/sxwjs/releases)
 
 #### Build Status
 [![Build Status](https://img.shields.io/azure-devops/build/sxw-js/sxw-js/1.svg?label=Build%3A%20Azure%20Pipelines&style=flat-square&logo=azuredevops)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)

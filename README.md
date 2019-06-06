@@ -34,7 +34,7 @@ SXW.js is a javascript library that is used to display console warnings aginst S
     ```
  2. Import sxwjs module
  3. Call the required function inside sxwjs module
-     ```
+    ```typescript
     import sxwjs from '@sxwjs/sxwjs';
     ...
     ...

@@ -1,6 +1,6 @@
 {
-  "name": "@sxw-js/sxw.js",
-  "version": "1.2.0",
+  "name": "@sxwjs/sxwjs",
+  "version": "2.0.0",
   "description": "A Javascript library to warn your users aginst Self XSS attacks",
   "main": "src/sxw.js",
   "scripts": {
@@ -8,10 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sxw-js/sxw-js.git"
+    "url": "git+https://github.com/sxwjs/sxwjs.git"
   },
   "keywords": [
-    "sxw-js",
+    "sxwjs",
+    "sxw js",
     "self-xss",
     "self xss warning",
     "browser",
@@ -22,11 +23,15 @@
     {
       "name": "Kolappan Nathan",
       "url": "https://kolappannathan.github.io/"
+    },
+    {
+      "name": "Shivaraj Naidu",
+      "url": "https://github.com/shivarajnaidu"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sxw-js/sxw-js/issues"
+    "url": "https://github.com/sxwjs/sxwjs/issues"
   },
   "homepage": "https://sxw.js.org/"
 }

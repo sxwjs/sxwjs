@@ -12,7 +12,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Added credits
 
 ## Changed
+ - Module export is now UMD
  - Changed status icon styles
+ - Updates to reflect new repo name in GitHub
 
 ## [1.2.0] - 2019-05-20
 ### Added

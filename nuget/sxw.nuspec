@@ -2,20 +2,20 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>sxw.js</id>
-    <version>1.2.0</version>
+    <version>2.0.0</version>
     <title>SXW js</title>
     <authors>Kolappan Nathan</authors>
     <owners>Kolappan Nathan</owners>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://sxw.js.org/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/sxw-js/sxw-images/master/logo/SXW js.jpg</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/sxwjs/sxwjs-images/master/logo/SXW%20js.jpg</iconUrl>
     <description>A Javascript library to warn your users aginst Self XSS attacks in browser console.</description>
     <summary>A Javascript library to warn your users aginst Self XSS attacks in browser console.</summary>
-    <releaseNotes>Refer: https://github.com/sxw-js/sxw-js/blob/master/CHANGELOG.md</releaseNotes>
+    <releaseNotes>Refer: https://github.com/sxwjs/sxwjs/blob/master/CHANGELOG.md</releaseNotes>
     <copyright>Copyright (c) 2019 Kolappan Nathan</copyright>
     <language>en-GB</language>
-    <tags>sxw-js self-xss self xss warning browser security xss attacks</tags>
+    <tags>sxwjs self-xss self xss warning browser security xss attacks</tags>
   </metadata>
   <files>
     <file src="content\sxw.js" target="content\sxw.js" />

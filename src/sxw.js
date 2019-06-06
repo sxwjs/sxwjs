@@ -5,6 +5,11 @@
 * @website      https://sxw.js.org/
 * @version      v2.0.0 (2019-May-20)
 * @license      MIT license (http://www.opensource.org/licenses/mit-license.php)
+* @author       Ref: https://github.com/sxwjs/sxwjs/graphs/contributors
+*/
+
+/**
+* @description The template is based on https://github.com/umdjs/umd/blob/master/templates/returnExports.js
 */
 
 (function (root, factory) {
@@ -25,11 +30,12 @@
     // Return a value to define the module export.
 
     var sxwjs = {
-        config: {
-            stopColor: "red",
-            warningText: "This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
-        }
     };
+
+    sxwjs.config = {
+        stopColor: "red",
+        warningText: "This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
+    }
 
     /**
      * @description This function prints a huge stop sign in the console

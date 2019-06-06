@@ -17,16 +17,6 @@ SXW.js is a javascript library that is used to display console warnings aginst S
 
 ## Usage
 
-#### Using js file directly
-
- 1. Include the sxw.js file in your website.
- 2. The script will register built-in functions into `window.sxwjs` object.
- 3. At the end of the html document call the printWarning function in `window.sxwjs` as shown in the sample code.
-    ```javascript
-    <script>
-        window.sxwjs.printWarning();
-    </script>
-    ```
 #### Using npm
  1. Install the [npm package](https://www.npmjs.com/package/@sxwjs/sxwjs) using
     ```bash
@@ -41,9 +31,20 @@ SXW.js is a javascript library that is used to display console warnings aginst S
     sxwjs.printWarning();
     ```
 
+#### Using js file directly
+
+ 1. Include the sxw.js file in your website.
+ 2. The script will register built-in functions into `window.sxwjs` object.
+ 3. At the end of the html document call the printWarning function in `window.sxwjs` as shown in the sample code.
+    ```javascript
+    <script>
+        window.sxwjs.printWarning();
+    </script>
+    ```
+
 #### Using nuget
  1. Install the [nuget package](https://www.nuget.org/packages/sxw.js/)
- 2. Include the sxw.js file into your webstie.
+ 2. Include the sxw.js file from the content folder into your webstie.
  3. At the end of the html document call the printWarning function in `window.sxwjs` similar to the one mentioned above.
 
 

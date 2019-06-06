@@ -39,14 +39,17 @@
         printStop();
         printWarningText();
     }
-    
+
     // this assigning is done so that even when printStop and printWarningText are overridden printWarning remains unaffected
     sxwjs.printStop = printStop;
-    sxwjs.printWarningText = printWarningText;    
+    sxwjs.printWarningText = printWarningText;
     sxwjs.printWarning = printWarning;
+
+    if (g.module && g.module.exports) {
+        g.module.exports = sxwjs;
+    }
 
     // assinging sxwjs to window or global or the empty object that is passed
     g.sxwjs = sxwjs;
-    
 })(window || global || {});
 // an empty object is passed in the absense of window or glbal to avoid errors

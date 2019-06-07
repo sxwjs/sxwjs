@@ -76,8 +76,23 @@ There are three functions in the library that will be available into the `window
 
 None of these functions are called by default. You can choose to call them as you wish.
 
-### Credits
+### Credits & Thanks
+
+#### Contributors
+ 1. [Kolappan Nathan](https://kolappannathan.github.io/)
+ 2. Shivaraj Naidu
+
+#### Services used
+We thank the following services for providing free services to Open Source Projects,
+
+ 1. Github for free code hosting and free website using [GitHub pages](https://pages.github.com/).
+ 2. [js.org](https://js.org/) for providing subdomain under js.org.
+ 3. [Shields.io](https://shields.io/) for those beatutiful status icons.
+ 4. [Azure Devops](https://dev.azure.com) for free CI/CD.
+
+#### GitHub bots
+ 1. [ImgBot](https://imgbot.net/) - Automatic ocmpression of our images
+ 2. [Pull](https://probot.github.io/apps/pull/) - Automatically update forked repos
+
+#### Tools used
  1. The logo and other images are created using [Adobe Spark](https://spark.adobe.com/).
- 2. The status icons used are provided and hosted by [Shields.io](https://shields.io/).
- 3. Our website is hosted using free [GitHub pages](https://pages.github.com/).
- 4. We thank [js.org](https://js.org/) for providing subdomain for this project.

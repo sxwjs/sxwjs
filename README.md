@@ -88,7 +88,7 @@ We thank the following services for providing free services to Open Source Proje
  1. Github for free code hosting and free website using [GitHub pages](https://pages.github.com/).
  2. [js.org](https://js.org/) for providing subdomain under js.org.
  3. [Shields.io](https://shields.io/) for those beatutiful status icons.
- 4. [Azure Devops](https://dev.azure.com) for free CI/CD.
+ 4. [Azure Devops](https://dev.azure.com/sxw-js/sxw-js) for free CI/CD.
 
 #### GitHub bots
  1. [ImgBot](https://imgbot.net/) - Automatic ocmpression of our images

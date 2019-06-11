@@ -100,6 +100,7 @@ We thank the following services for providing free services to Open Source Proje
 #### GitHub bots
  1. [ImgBot](https://imgbot.net/) - Automatic compression of our images
  2. [Pull](https://probot.github.io/apps/pull/) - Automatically update forked repos
+ 3. [allcontributors](https://allcontributors.org/) - Maintains list of contributors of the project
 
 #### Tools used
  1. The logo and other images are created using [Adobe Spark](https://spark.adobe.com/).

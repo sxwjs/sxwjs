@@ -80,8 +80,14 @@ None of these functions are called by default. You can choose to call them as yo
 ### Credits & Thanks
 
 #### Contributors
- 1. [Kolappan Nathan](https://kolappannathan.github.io/)
- 2. Shivaraj Naidu
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="https://kolappannathan.github.io/"><img src="https://avatars2.githubusercontent.com/u/8157105?v=4" width="100px;" alt="Kolappan Nathan"/><br /><sub><b>Kolappan Nathan</b></sub></a><br /><a href="https://github.com/sxwjs/sxwjs/commits?author=kolappannathan" title="Code">💻</a></td></tr></table>
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 #### Services used
 We thank the following services for providing free services to Open Source Projects,
@@ -97,15 +103,3 @@ We thank the following services for providing free services to Open Source Proje
 
 #### Tools used
  1. The logo and other images are created using [Adobe Spark](https://spark.adobe.com/).
-
-## Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://kolappannathan.github.io/"><img src="https://avatars2.githubusercontent.com/u/8157105?v=4" width="100px;" alt="Kolappan Nathan"/><br /><sub><b>Kolappan Nathan</b></sub></a><br /><a href="https://github.com/sxwjs/sxwjs/commits?author=kolappannathan" title="Code">💻</a></td></tr></table>
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

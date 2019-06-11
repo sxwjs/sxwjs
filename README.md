@@ -83,7 +83,7 @@ None of these functions are called by default. You can choose to call them as yo
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://kolappannathan.github.io/"><img src="https://avatars2.githubusercontent.com/u/8157105?v=4" width="100px;" alt="Kolappan Nathan"/><br /><sub><b>Kolappan Nathan</b></sub></a><br /><a href="https://github.com/sxwjs/sxwjs/commits?author=kolappannathan" title="Code">💻</a></td></tr></table>
+<table><tr><td align="center"><a href="https://kolappannathan.github.io/"><img src="https://avatars2.githubusercontent.com/u/8157105?v=4" width="80px;" alt="Kolappan Nathan"/><br /><sub><b>Kolappan Nathan</b></sub></a><br /><a href="https://github.com/sxwjs/sxwjs/commits?author=kolappannathan" title="Code">💻</a> <a href="#maintenance-kolappannathan" title="Maintenance">🚧</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

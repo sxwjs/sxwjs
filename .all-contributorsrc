@@ -14,6 +14,15 @@
         "code",
         "maintenance"
       ]
+    },
+    {
+      "login": "shivarajnaidu",
+      "name": "yuvaraj",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/12374494?v=4",
+      "profile": "https://www.linkedin.com/in/shivarajnaidu",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

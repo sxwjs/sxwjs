@@ -1,5 +1,5 @@
 # SXW.js
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 #### About
 SXW.js is a javascript library that is used to display console warnings against Self XSS attacks.
@@ -83,7 +83,7 @@ None of these functions are called by default. You can choose to call them as yo
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="https://kolappannathan.github.io/"><img src="https://avatars2.githubusercontent.com/u/8157105?v=4" width="80px;" alt="Kolappan Nathan"/><br /><sub><b>Kolappan Nathan</b></sub></a><br /><a href="https://github.com/sxwjs/sxwjs/commits?author=kolappannathan" title="Code">💻</a> <a href="#maintenance-kolappannathan" title="Maintenance">🚧</a></td></tr></table>
+<table><tr><td align="center"><a href="https://kolappannathan.github.io/"><img src="https://avatars2.githubusercontent.com/u/8157105?v=4" width="80px;" alt="Kolappan Nathan"/><br /><sub><b>Kolappan Nathan</b></sub></a><br /><a href="https://github.com/sxwjs/sxwjs/commits?author=kolappannathan" title="Code">💻</a> <a href="#maintenance-kolappannathan" title="Maintenance">🚧</a></td><td align="center"><a href="https://www.linkedin.com/in/shivarajnaidu"><img src="https://avatars1.githubusercontent.com/u/12374494?v=4" width="80px;" alt="yuvaraj"/><br /><sub><b>yuvaraj</b></sub></a><br /><a href="https://github.com/sxwjs/sxwjs/commits?author=shivarajnaidu" title="Code">💻</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

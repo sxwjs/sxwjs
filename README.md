@@ -1,5 +1,4 @@
 # SXW.js
-[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 #### About
 SXW.js is a javascript library that is used to display console warnings against Self XSS attacks.
@@ -8,6 +7,7 @@ SXW.js is a javascript library that is used to display console warnings against 
 [![GitHub License](https://img.shields.io/github/license/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxwjs/sxwjs/blob/master/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues-raw/sxwjs/sxwjs.svg?logo=github&style=flat-square)](https://github.com/sxwjs/sxwjs/issues)
 [![GitHub release](https://img.shields.io/github/release/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxwjs/sxwjs/releases)
+[![Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 #### Build Status
 [![Build Status](https://img.shields.io/azure-devops/build/sxw-js/sxw-js/1.svg?label=Build%3A%20Azure%20Pipelines&style=flat-square&logo=azuredevops)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
@@ -98,7 +98,7 @@ We thank the following services for providing free services to Open Source Proje
  4. [Azure Devops](https://dev.azure.com/sxw-js/sxw-js) for free CI/CD.
 
 #### GitHub bots
- 1. [ImgBot](https://imgbot.net/) - Automatic ocmpression of our images
+ 1. [ImgBot](https://imgbot.net/) - Automatic compression of our images
  2. [Pull](https://probot.github.io/apps/pull/) - Automatically update forked repos
 
 #### Tools used

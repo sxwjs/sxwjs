@@ -1,15 +1,13 @@
 # SXW.js
+[![Website](https://img.shields.io/badge/website-sxw.js.org-informational.svg?style=flat-square&logo=mozilla%20firefox)](https://sxw.js.org/)
+[![GitHub License](https://img.shields.io/github/license/sxwjs/sxwjs.svg?style=flat-square)](#)
+[![GitHub issues](https://img.shields.io/github/issues-raw/sxwjs/sxwjs.svg?style=flat-square)](#)
+[![Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 #### About
 SXW.js is a javascript library that is used to display console warnings against Self XSS attacks.
 
-[![Build Status](https://img.shields.io/azure-devops/build/sxw-js/sxw-js/1.svg?label=Build%3A%20Azure%20Pipelines&style=flat-square&logo=azure%20pipelines)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
-[![GitHub License](https://img.shields.io/github/license/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxwjs/sxwjs/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues-raw/sxwjs/sxwjs.svg?logo=github&style=flat-square)](https://github.com/sxwjs/sxwjs/issues)
-[![Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
-
-### Website
-[![Website](https://img.shields.io/badge/Website-sxw.js.org-informational.svg?style=flat-square&logo=mozilla%20firefox)](https://sxw.js.org/)
+**Status**: [![Build Status](https://img.shields.io/azure-devops/build/sxw-js/sxw-js/1.svg?label=build&style=flat-square)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
 
 #### Download via
 [![npm](https://img.shields.io/npm/v/@sxwjs/sxwjs.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxwjs/sxwjs)

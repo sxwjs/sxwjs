@@ -1,5 +1,5 @@
 # SXW.js
-[![Website](https://img.shields.io/badge/website-sxw.js.org-informational.svg?style=flat-square&logo=mozilla%20firefox)](https://sxw.js.org/)
+[![Website](https://img.shields.io/badge/website-sxw.js.org-blue.svg?style=flat-square&logo=mozilla%20firefox)](https://sxw.js.org/)
 [![GitHub License](https://img.shields.io/github/license/sxwjs/sxwjs.svg?style=flat-square)](#)
 [![GitHub issues](https://img.shields.io/github/issues-raw/sxwjs/sxwjs.svg?style=flat-square)](#)
 [![Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)

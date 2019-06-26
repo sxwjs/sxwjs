@@ -87,18 +87,13 @@ None of these functions are called by default. You can choose to call them as yo
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
-#### Services used
-We thank the following services for providing free services to Open Source Projects,
+#### Services & Tools used
 
- 1. Github for free code hosting and free website using [GitHub pages](https://pages.github.com/).
- 2. [js.org](https://js.org/) for providing subdomain under js.org.
- 3. [Shields.io](https://shields.io/) for those beatutiful status icons.
- 4. [Azure Devops](https://dev.azure.com/sxw-js/sxw-js) for free CI/CD.
-
-#### GitHub bots
- 1. [ImgBot](https://imgbot.net/) - Automatic compression of our images
- 2. [Pull](https://probot.github.io/apps/pull/) - Automatically update forked repos
- 3. [allcontributors](https://allcontributors.org/) - Maintains list of contributors of the project
-
-#### Tools used
- 1. The logo and other images are created using [Adobe Spark](https://spark.adobe.com/).
+1. [Github](https://github.com) - Provides free hosting for repos and website.
+2. [js.org](https://js.org) - Provides subdomain for our website.
+3. [Shields.io](https://shields.io) - Provides those beatutiful status icons.
+4. [Azure Devops](https://dev.azure.com/sxw-js/sxw-js) - Free CI/CD for open source projects.
+5. [ImgBot](https://imgbot.net) - Automatic compression of new images
+6. [Pull](https://probot.github.io/apps/pull) - Automatic update of forked repos
+7. [allcontributors](https://allcontributors.org) - Helps maintaing list of contributors of the project
+8. [Adobe Spark](https://spark.adobe.com) - Used to create logo, banners, etc...

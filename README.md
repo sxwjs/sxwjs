@@ -62,7 +62,7 @@ SXW.js has a config object with the following variables,
 Variable name | Default value | Description
 ------------ | ------------- | ---------
 stopColor | red | the colour of the stop sign
-stopText | `*` based stop | The text used to print STOP sign
+stopText | `*` based stop sign text | The text used to print STOP sign
 stopFontWeight | bold | Font weight for stop sign
 cautionText | Caution: DO NOT PROCEED. | Text for caution notice
 cautionFontWeight | bold | Font weight for caution sign

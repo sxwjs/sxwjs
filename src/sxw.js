@@ -24,7 +24,7 @@
     } else {
         // Browser globals (root is window)
         root.sxwjs = factory();
-  }
+    }
 }(typeof self !== "undefined" ? self : this, function () {
 
     // Return a value to define the module export.
@@ -40,7 +40,7 @@
         cautionFontWeight: "bold",
         cautionFontSize: "15px",
         warningText: "This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
-    }
+    };
 
     /**
      * @description This function prints a huge stop sign in the console

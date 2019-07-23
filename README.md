@@ -7,7 +7,7 @@
 #### About
 SXW.js is a javascript library that is used to display console warnings against Self XSS attacks.
 
-**Status**: [![Build Status](https://img.shields.io/azure-devops/build/sxwjs/sxwjs/3.svg?label=build&style=flat-square)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
+**Status**: [![Build Status](https://img.shields.io/azure-devops/build/sxw-js/sxw-js/3.svg?label=build&style=flat-square)](https://dev.azure.com/sxw-js/sxw-js/_build/latest?definitionId=1&branchName=master)
 
 #### Download via
 [![npm](https://img.shields.io/npm/v/@sxwjs/sxwjs.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxwjs/sxwjs)

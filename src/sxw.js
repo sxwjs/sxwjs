@@ -34,6 +34,11 @@
 
     sxwjs.config = {
         stopColor: "red",
+        stopText: "*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***",
+        stopFontWeight: "bold",
+        cautionText: "Caution: DO NOT PROCEED.",
+        cautionFontWeight: "bold",
+        cautionFontSize: "15px",
         warningText: "This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
     }
 
@@ -41,14 +46,14 @@
      * @description This function prints a huge stop sign in the console
      */
     function printStop() {
-        console.log("%c*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***", "color:" + sxwjs.config.stopColor + "; font-weight:900;");
+        console.log("%c" + sxwjs.config.stopText, "color:" + sxwjs.config.stopColor + "; font-weight:" + sxwjs.config.stopFontWeight + ";");
     }
 
     /**
      * @description This function prints the caution notice
      */
     function printCautionNotice(){
-        console.log("%cCaution: DO NOT PROCEED.", "font-weight:bold; font-size:15px;");
+        console.log("%c" + sxwjs.config.cautionText, "font-weight:" + sxwjs.config.cautionFontWeight + "; font-size:"+ sxwjs.config.cautionFontSize + ";");
     }
 
     /**

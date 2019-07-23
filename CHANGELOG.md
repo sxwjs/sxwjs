@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Module export is now UMD
  - Changed status icon styles
  - Updates to reflect new repo name in GitHub
+ - Caution notice is now in a separate function
 
 ## [1.2.0] - 2019-05-20
 ### Added

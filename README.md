@@ -70,8 +70,9 @@ These variable can be customized to suit your website needs.
 
 There are three functions in the library that will be available into the `window.sxwjs` object.
  1. `printStop` - Prints just the huge stop sign
- 2. `printWarningText` - Prints the caution sign and the detailed error message
- 3. `printWarning` - prints all the three sections
+ 2. `printCautionNotice` - Prints the caution notice
+ 3. `printWarningText` - Prints the the detailed error message
+ 4. `printWarning` - prints all the three sections
 
 None of these functions are called by default. You can choose to call them as you wish.
 

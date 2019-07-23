@@ -4,7 +4,7 @@
 * @gitHub       https://github.com/sxwjs/sxwjs
 * @website      https://sxw.js.org/
 * @version      v2.0.0 (2019-May-20)
-* @license      MIT license (http://www.opensource.org/licenses/mit-license.php)
+* @license      MIT license (https://opensource.org/licenses/mit-license.php)
 * @author       Ref: https://github.com/sxwjs/sxwjs/graphs/contributors
 */
 
@@ -45,10 +45,17 @@
     }
 
     /**
-     * @description This function prints a caution notice followed by a detailed warning text
+     * @description This function prints the caution notice
+     */
+    function printCautionNotice(){
+        console.log("%cCaution: DO NOT PROCEED.", "font-weight:bold; font-size:15px;");
+    }
+
+    /**
+     * @description This function prints a detailed warning text
      */
     function printWarningText() {
-        console.log("%cCaution: DO NOT PROCEED.\n\n", "font-weight:bold; font-size:15px;", sxwjs.config.warningText);
+        console.log(sxwjs.config.warningText);
     }
 
     /**
@@ -56,11 +63,13 @@
      */
     function printWarning() {
         printStop();
+        printCautionNotice();
         printWarningText();
     }
 
     // this assigning is done so that even when printStop and printWarningText are overridden printWarning remains unaffected
     sxwjs.printStop = printStop;
+    sxwjs.printCautionNotice = printCautionNotice;
     sxwjs.printWarningText = printWarningText;
     sxwjs.printWarning = printWarning;
 

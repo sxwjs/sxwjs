@@ -5,6 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [3.0.0] - 2019-07-23
+### Changed
+ - Caution notice is now in a separate function
+ - Moved texts, styles, etc... to configuration
+ - Eslint rules to include amd as environment
+ - Fixed some eslint errors
+
+## [2.0.0] - 2019-06-06
 ### Added
  - Published to npm.
  - Published to Nuget
@@ -15,7 +24,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
  - Module export is now UMD
  - Changed status icon styles
  - Updates to reflect new repo name in GitHub
- - Caution notice is now in a separate function
 
 ## [1.2.0] - 2019-05-20
 ### Added

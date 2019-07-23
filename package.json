@@ -1,6 +1,6 @@
 {
   "name": "@sxwjs/sxwjs",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A Javascript library to warn your users aginst Self XSS attacks",
   "main": "src/sxw.js",
   "scripts": {

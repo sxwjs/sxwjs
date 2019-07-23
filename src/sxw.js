@@ -13,11 +13,11 @@
 */
 
 (function (root, factory) {
-    if (typeof define === 'function' && define.amd) {
+    if (typeof define === "function" && define.amd) {
         // AMD.
         // Register as an anonymous module.
         define([], factory);
-    } else if (typeof module === 'object' && module.exports) {
+    } else if (typeof module === "object" && module.exports) {
         // Node modules
         // Does not work with strict CommonJS, but only CommonJS-like environments that support module.exports, like Node.
         module.exports = factory();
@@ -25,7 +25,7 @@
         // Browser globals (root is window)
         root.sxwjs = factory();
   }
-}(typeof self !== 'undefined' ? self : this, function () {
+}(typeof self !== "undefined" ? self : this, function () {
 
     // Return a value to define the module export.
 

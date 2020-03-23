@@ -56,30 +56,71 @@ The warning displayed in console contains three sections.
  3. A detailed message saying that this section is intented for developers only. It also warns aginst copy pasting content in the console.
 
 ##### Configuration
-
 SXW.js has a config object with the following variables,
 
 Variable name | Default value | Description
 ------------ | ------------- | ---------
 stopColor | red | the colour of the stop sign
-stopText | `*` based stop sign text | The text used to print STOP sign
 stopFontWeight | bold | Font weight for stop sign
-cautionText | Caution: DO NOT PROCEED. | Text for caution notice
 cautionFontWeight | bold | Font weight for caution sign
 cautionFontSize | 15px | Font size for caution sign
+
+Example js object:
+
+````js
+var config = {
+        stopColor: "red",
+        stopFontWeight: "bold",
+        cautionFontWeight: "bold",
+        cautionFontSize: "15px",
+    };
+````
+
+##### Content
+
+SXW.js has a predefined object with the following variables for defining the content to be displayed,
+
+Variable name | Default value | Description
+------------ | ------------- | ---------
+stopText | `*` based stop sign text | The text used to print STOP sign
+cautionText | Caution: DO NOT PROCEED. | Text for caution notice
 warningText | This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team. | The content of the detailed error message
 
-These variable can be customized to suit your website needs.
+````js
+var content = {
+        en: {
+            stopText: "*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***",
+            cautionText: "Caution: DO NOT PROCEED.",
+            warningText: "This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
+        }
+    };
+````
+
+You can define content in multiple languages as shown here. Just pass the appropriate language code to the printing function.
 
 ##### Functions
 
 There are three functions in the library that will be available into the `window.sxwjs` object.
- 1. `printStop` - Prints just the huge stop sign
- 2. `printCautionNotice` - Prints the caution notice
- 3. `printWarningText` - Prints the the detailed error message
- 4. `printWarning` - prints all the three sections
+
+ 1. `printStop` - Prints just the huge stop sign.
+ 2. `printCautionNotice` - Prints the caution notice.
+ 3. `printWarningText` - Prints the the detailed error message.
+ 4. `printWarning` - Prints all the three sections.
+ 5. `setConfig` - Assigns the provided configuration.
+ 6. `getConfig` - Retrives the configuration.
+ 7. `setContent` - Can be used to modifiy the content such as warningText, cautionNotice, etc...
+ 8. `getContent` - Retrives the content that will be displayed on the console.
 
 None of these functions are called by default. You can choose to call them as you wish.
+
+Example Usage:
+
+````js
+window.sxwjs.setConfig(myConfig);
+window.sxwjs.printWarning('en');
+window.sxwjs.printStop('en');
+window.sxwjs.printCautionNotice('en');
+````
 
 ### Credits & Thanks
 

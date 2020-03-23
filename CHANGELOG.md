@@ -5,6 +5,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+ - Multilanguage support
+
+### Changed
+ - Separated content from configuration
+ - New functions to modify config and content. Configurations and Contents cannot be modified directly now.
 
 ## [3.0.0] - 2019-07-23
 ### Changed

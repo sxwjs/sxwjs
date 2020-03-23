@@ -27,56 +27,93 @@
     }
 }(typeof self !== "undefined" ? self : this, function () {
 
-    // Return a value to define the module export.
-
-    var sxwjs = {
-    };
-
-    sxwjs.config = {
+    var config = {
         stopColor: "red",
-        stopText: "*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***",
         stopFontWeight: "bold",
-        cautionText: "Caution: DO NOT PROCEED.",
         cautionFontWeight: "bold",
         cautionFontSize: "15px",
-        warningText: "This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
     };
+
+    var content = {
+        en: {
+            stopText: "*********  *********  *********  *********\n***           ***     ***   ***  ***   ***\n***           ***     ***   ***  ***   ***\n*********     ***     ***   ***  *********\n      ***     ***     ***   ***  ***\n      ***     ***     ***   ***  ***\n*********     ***     *********  ***",
+            cautionText: "Caution: DO NOT PROCEED.",
+            warningText: "This section is intended for developers only. Don't copy paste anything in this area.\nIf someone told you to copy and paste something here, it is a scam and will give them access to your account. In that case, kindly report this to our support team."
+        }
+    };
+
+    //#region [Printing functions]
 
     /**
      * @description This function prints a huge stop sign in the console
+     * @param {string} lang Language Code (ex: en)
      */
-    function printStop() {
-        console.log("%c" + sxwjs.config.stopText, "color:" + sxwjs.config.stopColor + "; font-weight:" + sxwjs.config.stopFontWeight + ";");
+    function printStop(lang) {
+        console.log("%c" + content[lang].stopText, "color:" + config.stopColor + "; font-weight:" + config.stopFontWeight + ";");
     }
 
     /**
      * @description This function prints the caution notice
+     * @param {string} lang Language Code (ex: en)
      */
-    function printCautionNotice(){
-        console.log("%c" + sxwjs.config.cautionText, "font-weight:" + sxwjs.config.cautionFontWeight + "; font-size:"+ sxwjs.config.cautionFontSize + ";");
+    function printCautionNotice(lang) {
+        console.log("%c" + content[lang].cautionText, "font-weight:" + config.cautionFontWeight + "; font-size:" + config.cautionFontSize + ";");
     }
 
     /**
      * @description This function prints a detailed warning text
+     * @param {string} lang Language Code (ex: en)
      */
-    function printWarningText() {
-        console.log(sxwjs.config.warningText);
+    function printWarningText(lang) {
+        console.log(content[lang].warningText);
     }
 
     /**
      * @description This function prints all the warnings including STOP sign, caution notice and warning text
+     * @param {string} lang Language Code (ex: en)
      */
-    function printWarning() {
-        printStop();
-        printCautionNotice();
-        printWarningText();
+    function printWarning(lang) {
+        printStop(lang);
+        printCautionNotice(lang);
+        printWarningText(lang);
     }
+
+    //#endregion [Printing functions]
+
+    //#region [Get Set functions] 
+
+    function setConfig(userConfig){
+        config = userConfig;
+    }
+
+    function getConfig(){
+        return config;
+    }
+
+    function setContent(userContent){
+        content = userContent;
+    }
+
+    function getContent(){
+        return content;
+    }
+
+    //#endregion [Get Set functions] 
+
+    // Return a value to define the module export.
+    var sxwjs = {
+    };
 
     // this assigning is done so that even when printStop and printWarningText are overridden printWarning remains unaffected
     sxwjs.printStop = printStop;
     sxwjs.printCautionNotice = printCautionNotice;
     sxwjs.printWarningText = printWarningText;
     sxwjs.printWarning = printWarning;
+
+    sxwjs.setConfig = setConfig;
+    sxwjs.getConfig = getConfig;
+    sxwjs.setContent = setContent;
+    sxwjs.getContent = getContent;
 
     return sxwjs;
 }));

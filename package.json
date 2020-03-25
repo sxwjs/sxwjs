@@ -1,6 +1,6 @@
 {
   "name": "@sxwjs/sxwjs",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "A Javascript library to warn your users aginst Self XSS attacks",
   "main": "src/sxw.js",
   "scripts": {
@@ -17,12 +17,13 @@
     "self xss warning",
     "browser",
     "security",
-    "xss attacks"
+    "xss attacks",
+    "xss console warning"
   ],
   "contributors": [
     {
       "name": "Kolappan Nathan",
-      "url": "https://kolappannathan.github.io/"
+      "url": "https://kolappan.dev/"
     },
     {
       "name": "Shivaraj Naidu",

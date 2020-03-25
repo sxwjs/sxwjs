@@ -1,11 +1,11 @@
 /**
 * @name         SXW.js
-* @description  A simple javascript to print self XSS warning
+* @description  A simple javascript library to print self XSS warning
 * @gitHub       https://github.com/sxwjs/sxwjs
 * @website      https://sxw.js.org/
-* @version      v2.0.0 (2019-May-20)
+* @version      v4.0.0 (2020-Mar-24)
 * @license      MIT license (https://opensource.org/licenses/mit-license.php)
-* @author       Ref: https://github.com/sxwjs/sxwjs/graphs/contributors
+* @author       Kolappan Nathan
 */
 
 /**

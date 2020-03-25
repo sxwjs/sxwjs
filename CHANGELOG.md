@@ -5,12 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+
+## [4.0.0] - 2020-03-24
 ### Added
  - Multilanguage support
 
 ### Changed
  - Separated content from configuration
  - New functions to modify config and content. Configurations and Contents cannot be modified directly now.
+ - IconURL in Nuget package is replaced with Icon as IconURL is now deprecated.
 
 ## [3.0.0] - 2019-07-23
 ### Changed

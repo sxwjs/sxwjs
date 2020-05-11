@@ -13,7 +13,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2.1.0
     - name: Installing eslint
-      run: npm i -g eslint
+      run: sudo npm i -g eslint
     - name: Run eslint
       run: |
         eslint ./src/sxw.js

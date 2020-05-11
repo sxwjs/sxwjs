@@ -49,7 +49,7 @@
      * @param {string} lang Language Code (ex: en)
      */
     function printStop(lang) {
-        console.log("%c" + content[lang].stopText, "color:" + config.stopColor + "; font-weight:" + config.stopFontWeight + ";")
+        console.log("%c" + content[lang].stopText, "color:" + config.stopColor + "; font-weight:" + config.stopFontWeight + ";");
     }
 
     /**

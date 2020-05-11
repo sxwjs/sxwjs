@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2.1.0
+    - name: Installing eslint
+      run: npm i -g eslint
+    - name: Run eslint
+      run: |
+        eslint ./src/sxw.js
+        if [ $? -ne 0 ]; then
+          exit 1
+        fi

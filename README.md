@@ -13,7 +13,7 @@ SXW.js is a javascript library that is used to display console warnings against 
 [![npm](https://img.shields.io/npm/v/@sxwjs/sxwjs.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxwjs/sxwjs)
 [![Nuget](https://img.shields.io/nuget/v/sxw.js.svg?style=flat-square&logo=nuget)](https://www.nuget.org/packages/sxw.js/)
 [![GitHub release](https://img.shields.io/github/release/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxwjs/sxwjs/releases)
-[![CDN]((https://img.shields.io/jsdelivr/npm/hy/@sxwjs/sxwjs?label=CDN%20-%20jsdelivr&logo=jsdelivr&logoColor=white&style=flat-square)](https://www.jsdelivr.com/package/npm/@sxwjs/sxwjs)
+[![CDN](https://img.shields.io/jsdelivr/npm/hy/@sxwjs/sxwjs?label=CDN%20-%20jsdelivr&logo=jsdelivr&logoColor=white&style=flat-square)](https://www.jsdelivr.com/package/npm/@sxwjs/sxwjs)
 
 ## Usage
 

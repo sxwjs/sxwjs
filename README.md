@@ -13,6 +13,7 @@ SXW.js is a javascript library that is used to display console warnings against 
 [![npm](https://img.shields.io/npm/v/@sxwjs/sxwjs.svg?style=flat-square&logo=npm)](https://www.npmjs.com/package/@sxwjs/sxwjs)
 [![Nuget](https://img.shields.io/nuget/v/sxw.js.svg?style=flat-square&logo=nuget)](https://www.nuget.org/packages/sxw.js/)
 [![GitHub release](https://img.shields.io/github/release/sxwjs/sxwjs.svg?style=flat-square&logo=github)](https://github.com/sxwjs/sxwjs/releases)
+[![CDN]((https://img.shields.io/jsdelivr/npm/hy/@sxwjs/sxwjs?label=CDN%20-%20jsdelivr&logo=jsdelivr&logoColor=white&style=flat-square)](https://www.jsdelivr.com/package/npm/@sxwjs/sxwjs)
 
 ## Usage
 
@@ -32,9 +33,13 @@ SXW.js is a javascript library that is used to display console warnings against 
 
 #### Using js file directly
 
- 1. Include the sxw.js file in your website.
- 2. The script will register built-in functions into `window.sxwjs` object.
- 3. At the end of the HTML document call the printWarning function in `window.sxwjs` as shown in the sample code.
+ 1. Include the sxw.js file in your website either directly or via CDN.
+ 2. If you are using CDN try the following URL
+    ```html
+    <script src="https://cdn.jsdelivr.net/npm/@sxwjs/sxwjs@4.0.0/src/sxw.min.js"></script>
+    ```
+ 3. The script will register built-in functions into `window.sxwjs` object.
+ 4. At the end of the HTML document call the printWarning function in `window.sxwjs` as shown in the sample code.
     ```javascript
     <script>
         window.sxwjs.printWarning();
